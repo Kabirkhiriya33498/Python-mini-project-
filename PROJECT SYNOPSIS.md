@@ -7,19 +7,19 @@ The goal of this project is to create a simple online auction site where users c
 
 Backend: Python (Flask or Django)
 
-Frontend: HTML, CSS (basic styling), and JavaScript for interactivity (optional)
+Frontend: HTML and CSS (basic styling)
 
-Database: SQLite (for simplicity)
+Database: SQLite 
 
-Version Control: Git (for project management)
+Version Control: Git 
 
 #Project Description:
 This basic online auction site will have the following features:
 
 1. User Registration & Login:
 Users will be able to sign up with a username and password, log in, and manage their sessions.
-Basic authentication (no need for complex email verification or password reset features).
-
+Basic authentication.
+ 
 2. Auction Listings:
 Users can create auction listings with simple details: product name, description, and starting bid.
 A list of all active auctions will be displayed on the homepage, where users can see the auction title and current highest bid.
