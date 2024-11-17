@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>{{ item.title }}</title>
+</head>
+<body>
+    <h1>{{ item.title }}</h1>
+    <p>{{ item.description }}</p>
+    <p>Current Bid: ${{ item.current_bid }}</p>
+    <p>Auction Ends At: {{ item.end_time }}</p>
+    <form method="POST">
+        <label>Place Your Bid:</label>
+        <input type="number" name="bid" step="0.01" required>
+        <button type="submit">Bid</button>
+    </form>
+    <a href="/">Back to Home</a>
+</body>
+</html>

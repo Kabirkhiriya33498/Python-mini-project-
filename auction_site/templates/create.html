@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Create Auction</title>
+</head>
+<body>
+    <h1>Create New Auction</h1>
+    <form method="POST">
+        <label>Title:</label><br>
+        <input type="text" name="title" required><br>
+        <label>Description:</label><br>
+        <textarea name="description" required></textarea><br>
+        <label>Starting Bid:</label><br>
+        <input type="number" name="starting_bid" step="0.01" required><br>
+        <label>End Time (YYYY-MM-DD HH:MM:SS):</label><br>
+        <input type="text" name="end_time" required><br>
+        <button type="submit">Create</button>
+    </form>
+</body>
+</html>
